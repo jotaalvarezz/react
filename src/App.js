@@ -1,10 +1,10 @@
-import Contador from './components/Contador'
+import Jsx from './components/Jsx'
 
 function App() {
   return (
     <div>
       <h1>HOLA</h1>
-      <Contador/>
+      <Jsx/>
     </div>
   );
 }
