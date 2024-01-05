@@ -1,14 +1,20 @@
 import React, { useState, Fragment } from 'react'
 
-const Contador = () => {
-    
+const JsxAccion  = () => {
+    const temperatura = 20
 
     return (  
         <Fragment>
-            <h1>Capitulo de JSX</h1>
-            {/* <button onClick={sumar}>contar</button> */}
+            <div className="container">
+                <h1>soy JSX</h1>
+                <p>
+                    {
+                        temperatura > 20 ?  'Hace calor' : 'Hace frio'
+                    }
+                </p>
+            </div>
         </Fragment>
     );
 }
- 
-export default Contador;
+
+export default JsxAccion;
